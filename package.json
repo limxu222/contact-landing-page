@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.js",
+    "dev": "vercel dev",
     "test": "node --test"
   },
   "dependencies": {
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "supertest": "^7.0.0"
+    "@upstash/redis": "^1.38.2"
   }
 }

@@ -1,3 +1,5 @@
 node_modules/
 submissions.json
 .worktrees/
+.vercel/
+.env*
